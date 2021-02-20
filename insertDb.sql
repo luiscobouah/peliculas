@@ -1,0 +1,25 @@
+INSERT INTO `actores` (`idActor`,`fechaNacimiento`,`paisNacimiento`,`nombre`) VALUES (13,'1976-09-04','España','Ivan Massagué');
+INSERT INTO `actores` (`idActor`,`fechaNacimiento`,`paisNacimiento`,`nombre`) VALUES (14,'1964-03-15','España','Zorion Eguileor');
+INSERT INTO `actores` (`idActor`,`fechaNacimiento`,`paisNacimiento`,`nombre`) VALUES (15,'1986-06-12','España','Mario Casas');
+INSERT INTO `actores` (`idActor`,`fechaNacimiento`,`paisNacimiento`,`nombre`) VALUES (16,'1971-01-17','España','Javier Gutiérrez');
+INSERT INTO `actores` (`idActor`,`fechaNacimiento`,`paisNacimiento`,`nombre`) VALUES (17,'1983-08-11','Australia','Chris Hemsworth');
+INSERT INTO `actores` (`idActor`,`fechaNacimiento`,`paisNacimiento`,`nombre`) VALUES (18,'1982-12-29','Estados Unidos','Alison Brie');
+INSERT INTO `actores` (`idActor`,`fechaNacimiento`,`paisNacimiento`,`nombre`) VALUES (19,'1993-05-13','Estados Unidos','Debby Ryan');
+INSERT INTO `actores` (`idActor`,`fechaNacimiento`,`paisNacimiento`,`nombre`) VALUES (20,'1976-08-02','Reino Unido','Sam Worthington');
+INSERT INTO `actores` (`idActor`,`fechaNacimiento`,`paisNacimiento`,`nombre`) VALUES (21,'1982-06-29','Estados Unidos','Lily Rabe');
+
+INSERT INTO `peliculas` (`idPelicula`,`titulo`,`annio`,`duracion`,`pais`,`direccion`,`genero`,`sinopsis`,`imagen`) VALUES (38,'Tyler Rake','2020','117','Estados Unidos','Sam Hargrave','Acción','Tyler Rake (Hemsworth) es un mercenario que ofrece sus servicios en el mercado negro, y al que contratan para una peligrosa misión: rescatar al hijo secuestrado del príncipe jefe de la mafia india que se encuentra en prisión. Secuestrado por un capo de la mafia tailandesa, una misión que se preveía suicida se convierte en un desafío casi imposible que cambiará para siempre las vidas de Tyler y el chico. ','56be727d-5a50-49a9-b536-94ba9426ea92_Tyler_Rake.jpg');
+INSERT INTO `peliculas` (`idPelicula`,`titulo`,`annio`,`duracion`,`pais`,`direccion`,`genero`,`sinopsis`,`imagen`) VALUES (39,'Hogar','2020','103','España','Àlex Pastor','Drama','Javier Muñoz era un ejecutivo publicitario de éxito pero, tras un año en el paro, él y su familia se ven obligados a dejar el piso que ya no se pueden permitir. Un día, Javier descubre que aún conserva un juego de llaves de su antigua casa, y empieza a espiar a la joven pareja que ahora vive allí. Poco a poco, Javier empezará a infiltrarse en la vida de los nuevos propietarios, decidido a intentar recuperar la vida que ha perdido… a costa de quien sea. ','4dd07d1c-acf1-45d1-b072-44ce7ffdf124_hogar.jpg');
+INSERT INTO `peliculas` (`idPelicula`,`titulo`,`annio`,`duracion`,`pais`,`direccion`,`genero`,`sinopsis`,`imagen`) VALUES (40,'Horse Girl','2020','104','Estados Unidos','Jeff Baena','Drama','Sarah (Alison Brie) es una joven peculiar con debilidad por los caballos, aficionada a las manualidades y a las series policiacas sobrenaturales, cuyos sueños lúcidos irrumpen cada vez más en su vida cotidiana.','4d35773c-a767-4c3b-8f60-02dc7b8439cb_horse_Girl.jpg');
+INSERT INTO `peliculas` (`idPelicula`,`titulo`,`annio`,`duracion`,`pais`,`direccion`,`genero`,`sinopsis`,`imagen`) VALUES (41,'Fractura','2019','100','Estados Unidos','Brad Anderson','Suspenso','Mientras viajan a través del país, Ray (Worthington), su mujer y su hija hacen una parada en una zona de descanso y la niña tropieza, rompiéndose el brazo. Los tres ponen rumbo al hospital y, tras varias horas de trayecto, por fin logran que su hija sea atendida. Agotado, Ray se queda dormido esperando a los resultados sobre la gravedad de las lesiones. Cuando despierta, nadie del hospital recuerda haber visto a su familia, ni existen datos de que alguna vez hayan ingresado en él','34b09962-f6d8-4fe1-8955-24b8d0d6aa39_fractura.jpg');
+INSERT INTO `peliculas` (`idPelicula`,`titulo`,`annio`,`duracion`,`pais`,`direccion`,`genero`,`sinopsis`,`imagen`) VALUES (43,'El hoyo','2019','94','España','Galder Gaztelu-Urrutia','Suspenso','El futuro, en una distopía. Dos personas por nivel. Un número desconocido de niveles. Una plataforma con comida para todos ellos. ¿Eres de los que piensan demasiado cuando están arriba? ¿O de los que no tienen agallas cuando están abajo? Si lo descubres demasiado tarde, no saldrás vivo del hoyo.','9224ae55-1d03-42eb-9c51-98ddecbb7e1d_el_hoyo.jpg');
+
+INSERT INTO `peliculas_has_actores` (`Peliculas_idPelicula`,`Actores_idActor`) VALUES (43,13);
+INSERT INTO `peliculas_has_actores` (`Peliculas_idPelicula`,`Actores_idActor`) VALUES (43,14);
+INSERT INTO `peliculas_has_actores` (`Peliculas_idPelicula`,`Actores_idActor`) VALUES (39,15);
+INSERT INTO `peliculas_has_actores` (`Peliculas_idPelicula`,`Actores_idActor`) VALUES (39,16);
+INSERT INTO `peliculas_has_actores` (`Peliculas_idPelicula`,`Actores_idActor`) VALUES (38,17);
+INSERT INTO `peliculas_has_actores` (`Peliculas_idPelicula`,`Actores_idActor`) VALUES (40,18);
+INSERT INTO `peliculas_has_actores` (`Peliculas_idPelicula`,`Actores_idActor`) VALUES (40,19);
+INSERT INTO `peliculas_has_actores` (`Peliculas_idPelicula`,`Actores_idActor`) VALUES (41,20);
+INSERT INTO `peliculas_has_actores` (`Peliculas_idPelicula`,`Actores_idActor`) VALUES (41,21);
