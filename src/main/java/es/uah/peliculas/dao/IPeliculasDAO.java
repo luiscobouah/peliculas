@@ -13,6 +13,7 @@ public interface IPeliculasDAO {
 
     List<Pelicula> buscarPeliculasPorGenero(String genero);
 
+
     Pelicula guardarPelicula(Pelicula pelicula);
 
     void eliminarPelicula(Integer idPelicula);
