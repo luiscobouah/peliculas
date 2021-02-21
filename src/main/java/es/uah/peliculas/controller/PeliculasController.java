@@ -5,6 +5,10 @@ import es.uah.peliculas.model.Pelicula;
 import es.uah.peliculas.service.IActoresService;
 import es.uah.peliculas.service.IPeliculasService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

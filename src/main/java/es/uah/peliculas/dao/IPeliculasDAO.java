@@ -1,5 +1,6 @@
 package es.uah.peliculas.dao;
 
+import es.uah.peliculas.model.Actor;
 import es.uah.peliculas.model.Pelicula;
 import java.util.List;
 
@@ -12,7 +13,6 @@ public interface IPeliculasDAO {
     List<Pelicula> buscarPeliculasPorTitulo(String titulo);
 
     List<Pelicula> buscarPeliculasPorGenero(String genero);
-
 
     Pelicula guardarPelicula(Pelicula pelicula);
 

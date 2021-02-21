@@ -1,6 +1,7 @@
 package es.uah.peliculas.service;
 
 import es.uah.peliculas.dao.IPeliculasDAO;
+import es.uah.peliculas.model.Actor;
 import es.uah.peliculas.model.Pelicula;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
